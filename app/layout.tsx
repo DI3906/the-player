@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { myFonts } from "./fonts/fonts";
+import { gothicFont } from "./fonts/fonts";
 
 export const metadata: Metadata = {
   title: "The Player",
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={myFonts.variable}>
+    <html lang="en" className={`${gothicFont.variable}`}>
       <body>
         {children}
       </body>

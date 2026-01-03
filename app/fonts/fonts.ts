@@ -1,6 +1,6 @@
 import localFont from "next/font/local"
 
-export const myFonts = localFont({
+export const gothicFont = localFont({
     src:[
         {
             path: '../../public/font/ManuskriptGothisch.ttf',
