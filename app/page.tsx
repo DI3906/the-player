@@ -1,17 +1,20 @@
 import HeaderProfile from "./components/HeaderProfile/HeaderProfile";
-import MyProjects from "./components/MyProjects/MyProjects";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Sections from "./components/Sections/Sections";
+import FooterP from "./components/Footer/Footer";
 
 export default function Home() {
   return (
-    <div className="font-sans justify-items-center min-h-screen">
-      <main className="flex flex-col">
+    <div className="justify-items-center">
+      <div className="banner"></div>
+      <div className="flex flex-col pl-25 pr-25">
         <HeaderProfile/>
-        <MyProjects/>
-
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <p>Created by Diego</p>
-      </footer>
+        <main className="flex">
+          <AboutMe/>
+          <Sections/>
+        </main>
+      </div>
+      <FooterP/>
     </div>
   );
 }
