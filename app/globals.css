@@ -2,8 +2,8 @@
 
 :root {
   /* COLOR VARIABLES */
-  --primary-color: #EEEBDD;
-  --second-color: #1B1717;
+  --primary-color: #091413;
+  --second-color: #F5F2F2;
   --accent-font: #CE1212;
   --accent-font: #810000;
 
@@ -51,4 +51,9 @@ body {
 
 .banner__info_categories > p {
   font-size: 18px;
+}
+
+.icon-content {
+  width: 32px;
+  height: 32px;
 }
