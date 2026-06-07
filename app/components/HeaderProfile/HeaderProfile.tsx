@@ -3,13 +3,12 @@ import Image from "next/image";
 export default function HeaderProfile() {
     return(
         <div>
-            <div className="banner"></div>
-            <div className="banner__content flex row pl-20 pb-8">
+            <div className="banner__content flex row pb-8">
                 <Image
                     width={180}
                     height={180}
                     alt="image-profile"
-                    src="/images/img-profile.png"
+                    src="/images/image-profile.jpeg"
                     className="banner__content_profile"
                 />
                 <div className="banner__content_text pl-10">
@@ -18,13 +17,6 @@ export default function HeaderProfile() {
                 </div>
                 
             </div>
-            <div className="banner__info pl-20">
-                <p>Trabaja en Aloga Software Solution</p>
-                <p>Estudió en TecNM Campus Costa Chica</p>
-                <p>Vive en CDMX</p>
-                <p>De Guerrero</p>
-            </div>
-
         </div>
     );
 }
