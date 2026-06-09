@@ -5,7 +5,6 @@
   --primary-color: #091413;
   --second-color: #F5F2F2;
   --accent-font: #CE1212;
-  --accent-font: #810000;
 
   /* FONT VARIABLES */
   --gothic: var(--gothic-font);
@@ -56,4 +55,10 @@ body {
 .icon-content {
   width: 32px;
   height: 32px;
+}
+
+.coming-label {
+  font-family: var(--gothic);
+  font-size: 64px;
+  color: var(--accent-font);
 }
