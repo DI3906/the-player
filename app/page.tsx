@@ -2,7 +2,6 @@ import Image from "next/image";
 import HeaderProfile from "./components/HeaderProfile/HeaderProfile";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Sections from "./components/Sections/Sections";
-import FooterP from "./components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
           <Sections/>
         </main>
       </div>
-      <FooterP/>
     </div>
   );
 }
